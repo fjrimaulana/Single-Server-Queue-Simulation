@@ -14,8 +14,16 @@ end
 data_arrived_time.shift
 data_service_time.shift
 
-puts data_arrived_time
-puts data_service_time
+puts data_arrived_time.to_s
+puts ''
+puts data_service_time.to_s
+puts ''
+
+def add (data_arrived_time, data_service_time)
+  data_arrived_time + data_service_time
+end
+
+puts data_arrived_time.zip(data_service_time).map { |i,j| add(i,j)}
 
 # jobs_to_do = data_arrived_time.count
 # puts jobs_to_do
