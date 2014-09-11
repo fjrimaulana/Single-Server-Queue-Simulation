@@ -1,29 +1,17 @@
 # README #
-
-This README would normally document whatever steps are necessary to get your application up and running.
+Assignment 01 - Single Server Queue 
 
 ### What is this repository for? ###
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+* Assuming that a machine shop is modeled as a single-server queue with infinite capacity and FIFO service method, given a list of customer arrival time a and corresponding service time s, please write a MATLAB program to determine:
+  1. delay time d, wait time w, and departure time c.
+  2. average inter-arrival time rbar and average service time sbar
+  3. average delay dbar, average service sbar, and average wait wbar
+  4. time averaged number of jobs in the node (lbar), in the queue (qbar), and in service (xbar)
+Please use the example input data from attachment (i.e., arrival time a and service time s, from example 1.2.2,  page 16) to evaluate your program, please also see example results in 1.2.2-1.2.5.
+  Copy your program and evaluate results to a word file, and submit that word file to the Assignments board on/before Sept. 12.
 
-### How do I get set up? ###
+### How to set up? ###
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
-
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+* Install Ruby 2.0
+* Dependency - 'Spreadsheet' library
